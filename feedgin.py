@@ -1,16 +1,22 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
 ################
 # Configuration
 feeds = {
-  "hrj's activity" : {
-    "url":"https://github.com/hrj.atom"
-  },
-  "Google News" : {
-    "url" : "http://news.google.co.in/news?pz=1&cf=all&ned=in&hl=en&output=rss",
-    "showSummary":False
-  }
+#  "hrj's activity" : {
+#    "url":"https://github.com/hrj.atom"
+#  },
+#  "Google News" : {
+#    "url" : "http://news.google.co.in/news?pz=1&cf=all&ned=in&hl=en&output=rss",
+#    "showSummary":False
+#  }
+	"sub": {
+		"url":"http://newyork.craigslist.org/search/sub/?maxAsk=950&minAsk=700&srchType=A&format=rss"
+	},
+	"roo": {
+		"url":"http://newyork.craigslist.org/search/roo/?maxAsk=950&minAsk=700&srchType=A&format=rss"
+	}
 }
 
 dataFilePath = '~/.appdata/feedgin.data'
